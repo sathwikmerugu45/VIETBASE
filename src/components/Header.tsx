@@ -13,15 +13,15 @@ const Header = () => {
             </div>
           </div>
           <div className="text-white">
-            <div className="font-bold text-sm md:text-lg tracking-wider">FLOW THEORY</div>
-            <div className="text-xs md:text-sm tracking-widest">VISUALS</div>
+            <div className="font-bold text-sm md:text-lg tracking-wider">VIETBASE</div>
+            <div className="text-xs md:text-sm tracking-widest">CONSULTING</div>
           </div>
         </div>
 
         {/* Mobile Navigation */}
         <div className="flex items-center space-x-4">
           <button className="bg-transparent border-2 border-white text-white px-4 py-2 md:px-6 md:py-2 rounded-full hover:bg-white hover:text-black transition-all text-sm md:text-base">
-            Book me
+            Get Consultation
           </button>
           <button className="md:hidden text-white">
             <Menu className="w-6 h-6" />
@@ -30,11 +30,11 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#" className="text-white hover:text-yellow-400 transition-colors">Home</a>
-          <a href="#" className="text-white hover:text-yellow-400 transition-colors">Events</a>
-          <a href="#" className="text-white hover:text-yellow-400 transition-colors">Library</a>
+          <a href="#" className="text-white hover:text-yellow-400 transition-colors">Services</a>
+          <a href="#" className="text-white hover:text-yellow-400 transition-colors">About</a>
+          <a href="#" className="text-white hover:text-yellow-400 transition-colors">Success Stories</a>
           <button className="bg-transparent border-2 border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition-all">
-            Book me
+            Get Consultation
           </button>
         </nav>
       </div>

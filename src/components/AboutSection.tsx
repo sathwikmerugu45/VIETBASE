@@ -9,8 +9,8 @@ const AboutSection = () => {
           <div className="flex justify-center lg:justify-start order-2 lg:order-1">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                alt="Zoltan" 
+                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                alt="VIETBASE Team" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -19,21 +19,21 @@ const AboutSection = () => {
           {/* Right - Content */}
           <div className="space-y-6 lg:space-y-8 order-1 lg:order-2">
             <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold">
-              Your cinematic<br className="hidden lg:block" />
-              <span className="text-yellow-400">dance videographer</span>
+              Your trusted<br className="hidden lg:block" />
+              <span className="text-yellow-400">Vietnam business partner</span>
             </h2>
             
             <div className="space-y-4 lg:space-y-6 text-sm md:text-lg text-gray-300 leading-relaxed">
               <p>
-                Hi, I am Zoltan the creator at Flow Theory Visuals.
+                Welcome to VIETBASE CONSULTING - your strategic partner for business success in Vietnam.
               </p>
               
               <p>
-                Inspired by my personal struggle of not having good videos of my own <span className="underline">stage appearances</span> and needing to film my own promo videos, I set out on a journey to help talented latin dancers show their skills to the world with eye catching videography and created a dedicated platform to boost their social media presence.
+                Born from the challenges faced by <span className="underline">expat entrepreneurs</span> navigating Vietnam's complex business landscape, we created a comprehensive consulting platform that bridges foreign ambition with local execution, ensuring sustainable success for both international and Vietnamese businesses.
               </p>
               
               <p>
-                Currently I am exploring the Asian dance scene and learning Brazilian zouk. Feel free to say hi to me <span className="underline cursor-pointer hover:text-yellow-400">on Instagram</span>.
+                We specialize in bi-cultural expertise, combining global business acumen with deep Vietnamese market knowledge. Connect with us to discover how we can accelerate your <span className="underline cursor-pointer hover:text-yellow-400">business growth in Vietnam</span>.
               </p>
             </div>
           </div>

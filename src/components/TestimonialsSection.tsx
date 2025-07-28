@@ -9,10 +9,10 @@ const TestimonialsSection = () => {
           <div className="space-y-6">
             <div className="text-yellow-400 text-6xl font-bold">"</div>
             <p className="text-xl lg:text-2xl italic leading-relaxed">
-              Zoltan helped us film a fantastic video. He told us 
-              exactly where to be and what to do. And our reel 
-              turned out amazing. I'd highly recommend hiring 
-              Flow Theory Visuals for your dance video needs.
+              VIETBASE provided exceptional guidance throughout our 
+              Vietnam market entry. Their cultural insights and 
+              regulatory expertise saved us months of trial and error. 
+              Highly recommend their consulting services.
             </p>
           </div>
 
@@ -20,10 +20,10 @@ const TestimonialsSection = () => {
           <div className="space-y-6">
             <div className="text-yellow-400 text-6xl font-bold">"</div>
             <p className="text-xl lg:text-2xl italic leading-relaxed">
-              I like working with people like Zoltan because he 
-              simplifies the process of pursuing my passion and 
-              he makes doing what I love easy. The videos we 
-              have produced together consistently exceed my 
+              Working with VIETBASE simplified our complex market 
+              entry process. Their deep understanding of Vietnamese 
+              business culture and regulatory landscape made our 
+              expansion seamless and successful beyond our 
               expectations.
             </p>
           </div>

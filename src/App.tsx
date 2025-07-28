@@ -5,7 +5,7 @@ import PortfolioSection from './components/PortfolioSection';
 import TestimonialsSection from './components/TestimonialsSection';
 import PromoSection from './components/PromoSection';
 import AboutSection from './components/AboutSection';
-import TripsSection from './components/TripsSection';
+import ServicesSection from './components/TripsSection';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <TestimonialsSection />
       <PromoSection />
       <AboutSection />
-      <TripsSection />
+      <ServicesSection />
     </div>
   );
 }

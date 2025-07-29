@@ -2,7 +2,8 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen bg-black text-white flex items-center pt-20 md:pt-0 overflow-x-hidden">
+    <section className="bg-black text-white pt-20 md:pt-0 md:min-h-screen md:flex md:items-center overflow-x-hidden">
+
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         {/* Left Content */}
         <div className="space-y-6 lg:space-y-8 order-2 lg:order-1">
@@ -13,13 +14,14 @@ const HeroSection = () => {
     
           {/* Creator Info */}
           <div className="flex items-center space-x-4">
-            <div className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden flex-shrink-0">
-              <img 
-                src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400" 
-                alt="VIETBASE Founder" 
-                className="w-full h-full object-cover"
-              />
-            </div>
+           <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden flex-shrink-0">
+  <img 
+    src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400" 
+    alt="VIETBASE Founder" 
+    className="w-full h-full object-cover"
+  />
+</div>
+
             <div>
               <p className="text-sm md:text-lg text-gray-300">
                 Our mission is to bridge foreign ambition with<br className="hidden md:block" />
@@ -40,16 +42,16 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Right Image */}
+       {/* Right Image */}
         <div className="relative order-1 lg:order-2">
-          <div className="rounded-3xl overflow-hidden max-w-sm mx-auto lg:max-w-none">
-            <img 
-              src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800" 
-              alt="Business consulting in Vietnam" 
-              className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover"
-            />
-          </div>
-        </div>
+  <div className="rounded-3xl overflow-hidden max-w-xs mx-auto lg:max-w-md">
+    <img 
+      src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" 
+      alt="Business consulting in Vietnam" 
+      className="w-full h-[300px] md:h-[350px] lg:h-[400px] object-cover"
+    />
+  </div> 
+</div>
       </div>
     </section>
   );

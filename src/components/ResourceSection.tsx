@@ -1,0 +1,91 @@
+import React from 'react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+const ResourceSection = () => {
+  return (
+    <section className="bg-black text-white py-20">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="mb-16">
+          <h3 className="text-sm text-gray-400 mb-4">Find the right solution:</h3>
+        </div>
+
+        {/* Resource Cards */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+          {/* Vietnam Market Entry Card */}
+          <div className="bg-gradient-to-br from-blue-900 to-blue-800 rounded-3xl p-8 relative overflow-hidden">
+            <div className="relative z-10">
+              <div className="text-sm text-blue-300 mb-4">Vietnam market entry</div>
+              <h3 className="text-3xl font-bold mb-6">
+                Expand your<br />
+                foreign business
+              </h3>
+              <div className="w-16 h-16 border-2 border-white rounded-lg flex items-center justify-center">
+                <ChevronRight className="w-8 h-8 text-white" />
+              </div>
+            </div>
+          </div>
+
+          {/* Operational Support Card */}
+          <div className="bg-gradient-to-br from-teal-600 to-teal-500 rounded-3xl p-8 relative overflow-hidden">
+            <div className="relative z-10">
+              <div className="text-sm text-teal-200 mb-4">Operational support</div>
+              <h3 className="text-3xl font-bold mb-6">
+                Manage & grow<br />
+                your Vietnam<br />
+                business
+              </h3>
+              <div className="w-16 h-16 bg-teal-700 rounded-2xl flex items-center justify-center">
+                <div className="w-8 h-8 rounded-lg border-2 border-white flex items-center justify-center">
+                  <div className="w-4 h-4 rounded-full bg-white"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Tax Guide Resource */}
+        <div className="bg-gradient-to-r from-blue-900 via-teal-700 to-teal-600 rounded-3xl p-8 lg:p-12 relative overflow-hidden">
+          <div className="absolute right-8 top-8">
+            <div className="flex space-x-2">
+              <button className="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center">
+                <ChevronLeft className="w-6 h-6 text-white" />
+              </button>
+              <button className="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center">
+                <ChevronRight className="w-6 h-6 text-white" />
+              </button>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div className="bg-white rounded-2xl p-6 max-w-sm">
+              <div className="w-full h-48 bg-gradient-to-br from-red-500 via-teal-500 to-blue-500 rounded-xl mb-4 relative overflow-hidden">
+                <div className="absolute inset-0 bg-black/20"></div>
+                <div className="absolute bottom-4 left-4 text-white">
+                  <div className="text-2xl font-bold">Vietnam tax</div>
+                  <div className="text-lg">guide</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-6">
+              <div className="text-yellow-400 text-sm font-medium">Free resource</div>
+              <h3 className="text-4xl font-bold">
+                Taxation in Vietnam: Complete<br />
+                guide (2025)<span className="text-yellow-400">.</span>
+              </h3>
+              <p className="text-lg text-gray-300">
+                A comprehensive guide covering taxation in Vietnam for both<br />
+                corporate and individual taxpayers.
+              </p>
+              <button className="bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-300 transition-colors">
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ResourceSection;

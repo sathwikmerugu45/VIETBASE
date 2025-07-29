@@ -6,6 +6,10 @@ import ResourceSection from './components/ResourceSection';
 import NewsSection from './components/NewsSection';
 import ServicesSection from './components/ServicesSection';
 import ClientStoriesSection from './components/ClientStoriesSection';
+import RegionalExpansionSection from './components/RegionalExpansionSection';
+import AboutSection from './components/AboutSection';
+import ResourcesSection from './components/ResourcesSection';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -17,6 +21,10 @@ function App() {
       <NewsSection />
       <ServicesSection />
       <ClientStoriesSection />
+      <RegionalExpansionSection />
+      <AboutSection />
+      <ResourcesSection />
+      <Footer />
     </div>
   );
 }

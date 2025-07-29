@@ -3,7 +3,7 @@ import { Rocket, Settings, Briefcase } from 'lucide-react';
 
 const ServicesSection = () => {
   return (
-    <section className="bg-black text-white py-20">
+    <section className="bg-black text-white py-8">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="mb-16">

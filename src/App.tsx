@@ -16,8 +16,9 @@ function App() {
     <div className="bg-black">
       <Header />
       <HeroSection />
-      <ExpertiseSection />
       <ResourceSection />
+      <ExpertiseSection />
+      {/* <ResourceSection /> */}
       <NewsSection />
       <ServicesSection />
       <ClientStoriesSection />

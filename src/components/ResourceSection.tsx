@@ -2,15 +2,17 @@ import React from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const ResourceSection = () => {
-  return (
-    <section className="bg-black text-white py-20">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="mb-16">
-          <h3 className="text-sm text-gray-400 mb-4">Find the right solution:</h3>
+  return ( 
+    <section className="bg-black text-white pb-0   pt-12 lg:pt-0">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="mb-12 md:mb-16 -mt-4 md:-mt-10 lg:-mt-10">  
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-left text-white whitespace-nowrap">
+        Find the right solution
+      </h2>
         </div>
 
         {/* Resource Cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+        <div className="grid grid-cols-1 pb-0 lg:grid-cols-2 gap-8 mb-8">
           {/* Vietnam Market Entry Card */}
           <div className="bg-gradient-to-br from-blue-900 to-blue-800 rounded-3xl p-8 relative overflow-hidden">
             <div className="relative z-10">
@@ -42,9 +44,15 @@ const ResourceSection = () => {
             </div>
           </div>
         </div>
+      </div>
+    </section>
+  );
+};
 
-        {/* Tax Guide Resource */}
-        <div className="bg-gradient-to-r from-blue-900 via-teal-700 to-teal-600 rounded-3xl p-8 lg:p-12 relative overflow-hidden">
+export default ResourceSection;
+
+{/* Tax Guide Resource */}
+        {/* <div className="bg-gradient-to-r from-blue-900 via-teal-700 to-teal-600 rounded-3xl p-8 lg:p-12 relative overflow-hidden">
           <div className="absolute right-8 top-8">
             <div className="flex space-x-2">
               <button className="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center">
@@ -54,9 +62,9 @@ const ResourceSection = () => {
                 <ChevronRight className="w-6 h-6 text-white" />
               </button>
             </div>
-          </div>
+          </div> */}
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+          {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="bg-white rounded-2xl p-6 max-w-sm">
               <div className="w-full h-48 bg-gradient-to-br from-red-500 via-teal-500 to-blue-500 rounded-xl mb-4 relative overflow-hidden">
                 <div className="absolute inset-0 bg-black/20"></div>
@@ -65,8 +73,8 @@ const ResourceSection = () => {
                   <div className="text-lg">guide</div>
                 </div>
               </div>
-            </div>
-
+            </div> */}
+{/* 
             <div className="space-y-6">
               <div className="text-yellow-400 text-sm font-medium">Free resource</div>
               <h3 className="text-4xl font-bold">
@@ -81,11 +89,5 @@ const ResourceSection = () => {
                 Download
               </button>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default ResourceSection;
+          </div> */}
+        {/* </div> */}

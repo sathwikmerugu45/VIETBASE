@@ -54,7 +54,7 @@ const NewsSection = () => {
   ];
 
   return (
-    <section className="bg-black text-white py-20">
+    <section className="bg-black text-white py-8">
       <div className="max-w-7xl mx-auto px-6">
         {/* News Header */}
         <div className="flex justify-between items-center mb-12">

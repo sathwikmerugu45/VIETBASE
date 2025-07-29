@@ -7,9 +7,9 @@ const ClientStoriesSection = () => {
         {/* Header */}
         <div className="mb-16">
           <div className="text-yellow-400 text-sm font-medium mb-4">● Client stories</div>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-center text-gray-800">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-center text-white-800">
             Trusted by regional groups and<br />
-            foreign <span className="text-gray-800">SMEs</span><span className="text-yellow-400">.</span>
+            foreign <span className="text-white-800">SMEs</span><span className="text-yellow-400">.</span>
           </h2>
         </div>
 
@@ -27,7 +27,7 @@ const ClientStoriesSection = () => {
             </p>
             
             <div className="space-y-2">
-              <h3 className="text-2xl font-bold text-gray-800">Global Victoria</h3>
+              <h3 className="text-2xl font-bold text-white-800">Global Victoria</h3>
               <p className="text-gray-400">Australian government agency</p>
               <button className="text-yellow-400 hover:text-yellow-300 underline">
                 Read case study
@@ -51,21 +51,21 @@ const ClientStoriesSection = () => {
         </div>
 
         {/* Navigation dots */}
-        <div className="flex justify-center space-x-2 mb-16">
+        {/* <div className="flex justify-center space-x-2 mb-16">
           <div className="w-3 h-3 bg-teal-400 rounded-full"></div>
           <div className="w-3 h-3 bg-gray-600 rounded-full"></div>
-        </div>
+        </div> */}
 
         {/* Bottom Section */}
         <div className="relative">
-          {/* Vietnam Map Dots */}
+          
           <div className="mb-12">
             <div className="flex justify-center">
               <div className="relative w-96 h-48">
                 {/* Simplified Vietnam map made of dots */}
                 <div className="grid grid-cols-20 gap-1">
-                  {Array.from({ length: 400 }).map((_, i) => {
-                    const isVietnamShape = Math.random() > 0.7; // Simplified logic for demo
+                  {/* {Array.from({ length: 400 }).map((_, i) => {
+                    const isVietnamShape = Math.random() > 0.7; 
                     return (
                       <div
                         key={i}
@@ -74,7 +74,7 @@ const ClientStoriesSection = () => {
                         }`}
                       />
                     );
-                  })}
+                  })} */}
                 </div>
               </div>
             </div>
@@ -83,9 +83,9 @@ const ClientStoriesSection = () => {
           {/* Expansion Section */}
           <div className="text-center space-y-6">
             <div className="text-yellow-400 text-sm font-medium">● Seamless regional expansion</div>
-            <h3 className="text-4xl md:text-5xl font-bold text-gray-800">
+            <h3 className="text-4xl md:text-5xl font-bold text-white-800">
               Expand & operate<br />
-              across <span className="text-gray-800">Asia</span><span className="text-yellow-400">.</span>
+              across <span className="text-white-800">Asia</span><span className="text-yellow-400">.</span>
             </h3>
           </div>
         </div>

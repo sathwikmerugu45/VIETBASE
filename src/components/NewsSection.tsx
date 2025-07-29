@@ -58,7 +58,7 @@ const NewsSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* News Header */}
         <div className="flex justify-between items-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800">
+          <h2 className="text-4xl md:text-5xl font-bold text-white-800">
             Latest news & insights<span className="text-gray-800">.</span>
           </h2>
           <button className="text-gray-400 hover:text-white transition-colors">
@@ -97,7 +97,7 @@ const NewsSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Latest Podcasts */}
           <div>
-            <h3 className="text-2xl font-bold mb-8 text-gray-800">Latest podcasts</h3>
+            <h3 className="text-2xl font-bold mb-8 text-white-800">Latest podcasts</h3>
             <div className="space-y-6">
               {podcasts.map((podcast, index) => (
                 <div key={index} className="flex items-start space-x-4 group cursor-pointer">
@@ -115,7 +115,7 @@ const NewsSection = () => {
 
           {/* Upcoming Events */}
           <div>
-            <h3 className="text-2xl font-bold mb-8 text-gray-800">Upcoming & recent events</h3>
+            <h3 className="text-2xl font-bold mb-8 text-white-800">Upcoming & recent events</h3>
             <div className="space-y-6">
               {events.map((event, index) => (
                 <div key={index} className="flex items-start space-x-4 group cursor-pointer">

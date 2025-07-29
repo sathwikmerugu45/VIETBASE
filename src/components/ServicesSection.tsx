@@ -8,11 +8,11 @@ const ServicesSection = () => {
         {/* Header */}
         <div className="mb-16">
           <div className="text-yellow-400 text-sm font-medium mb-4">● Our services</div>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-center text-gray-800">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-center text-white-800">
             Corporate services for every<br />
-            part of your <span className="text-gray-800">journey</span><span className="text-yellow-400">.</span>
+            part of your <span className="text-white-800">journey</span><span className="text-yellow-400">.</span>
           </h2>
-          <p className="text-lg text-gray-700 text-center max-w-5xl mx-auto leading-relaxed">
+          <p className="text-lg text-white-700 text-center max-w-5xl mx-auto leading-relaxed">
             Find intelligent answers to the most complex administrative issues you'll come up against as your business expands 
             into Vietnam and beyond. From establishing an investment vehicle through providing support for cross-border 
             transactions to setting up a fully operational local or regional presence, we will help you make the most out of every 
@@ -29,7 +29,7 @@ const ServicesSection = () => {
             </div>
             <div>
               <div className="text-sm text-gray-400 mb-2">Getting started</div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-800">Formation<span className="text-yellow-400">.</span></h3>
+              <h3 className="text-2xl font-bold mb-4 text-white-800">Formation<span className="text-yellow-400">.</span></h3>
             </div>
             <div className="space-y-3 text-left">
               <div className="flex items-center space-x-3">
@@ -53,7 +53,7 @@ const ServicesSection = () => {
             </div>
             <div>
               <div className="text-sm text-gray-400 mb-2">Staying compliant</div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-800">Administration<span className="text-yellow-400">.</span></h3>
+              <h3 className="text-2xl font-bold mb-4 text-white-800">Administration<span className="text-yellow-400">.</span></h3>
             </div>
             <div className="space-y-3 text-left">
               <div className="flex items-center space-x-3">
@@ -96,7 +96,7 @@ const ServicesSection = () => {
             </div>
             <div>
               <div className="text-sm text-gray-400 mb-2">Streamlining operations</div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-800">Advisory<span className="text-yellow-400">.</span></h3>
+              <h3 className="text-2xl font-bold mb-4 text-white-800">Advisory<span className="text-yellow-400">.</span></h3>
             </div>
             <div className="space-y-3 text-left">
               <div className="flex items-center space-x-3">

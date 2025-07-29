@@ -6,12 +6,12 @@ const ExpertiseSection = () => {
     <section className="bg-black text-white py-20">
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-16">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-gray-800">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-white-800">
             If you want to do business in Vietnam,<br />
-            you will need an <span className="text-gray-800">expert</span>.
+            you will need an <span className="text-white-800">expert</span>.
           </h2>
           
-          <p className="text-lg text-gray-700 max-w-3xl">
+          <p className="text-lg text-white-700 max-w-3xl">
             We know how to navigate the complexities and challenges of the regional<br />
             regulatory environment to make your Vietnam & Asia expansion<br />
             compliant & seamless.

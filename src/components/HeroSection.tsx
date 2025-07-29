@@ -24,14 +24,14 @@ const HeroSection = () => {
             Professional corporate services in Vietnam
           </div>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-800">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white-800">
             Easily set up, manage<br />
             & advance your business<br />
-            in <span className="text-gray-800">Vietnam</span>.
+            in <span className="text-white-800">Vietnam</span>.
           </h1>
           
           <div className="space-y-4">
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-white-800">
               VIETBASE provides a <span className="underline font-semibold">complete suite of corporate services</span><br />
               for doing business in Vietnam and Asia seamlessly.<br />
               Leverage our practical expertise to protect your<br />
@@ -61,7 +61,7 @@ const HeroSection = () => {
                   />
                 </div>
               </div>
-              <div className="text-sm text-gray-600">
+              <div className="text-sm text-white-600">
                 You'll be talking with<br />
                 one of our experts.
               </div>

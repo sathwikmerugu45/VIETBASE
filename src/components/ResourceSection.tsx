@@ -1,19 +1,19 @@
 import React from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 
 const ResourceSection = () => {
-  return ( 
-    <section className="bg-black text-white pb-0   pt-12 lg:pt-0">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="mb-6 md:mb-10 -mt-6 md:-mt-10 lg:-mt-10">  
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-left text-white whitespace-nowrap">
-        Find the right solution
-      </h2>
+  return (
+    <section className="bg-black text-white pb-0 pt-12 lg:pt-0">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="mb-6 md:mb-10 -mt-6 md:-mt-10 lg:-mt-10">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-left text-white whitespace-nowrap">
+            Find the right solution
+          </h2>
         </div>
 
-        {/* Resource Cards */}
-        <div className="grid grid-cols-1 pt-0 pb-0 lg:grid-cols-2 gap-8 mb-8">
-          {/* Vietnam Market Entry Card */}
+        {/* Grid for all 4 cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-8">
+          {/* === First Row of Cards === */}
           <div className="bg-gradient-to-br from-blue-900 to-blue-800 rounded-3xl p-8 relative overflow-hidden">
             <div className="relative z-10">
               <div className="font-bold text-sm text-blue-300 mb-4">Vietnam Market Entry</div>
@@ -27,19 +27,44 @@ const ResourceSection = () => {
             </div>
           </div>
 
-          {/* Operational Support Card */}
           <div className="bg-gradient-to-br from-teal-600 to-teal-500 rounded-3xl p-8 relative overflow-hidden">
             <div className="relative z-10">
               <div className="text-sm font-bold text-teal-200 mb-4">Operational Support</div>
               <h3 className="text-3xl font-bold mb-6">
                 Grow your<br />
-                Vietnam business<br />
-                
+                Vietnam business
               </h3>
               <div className="w-16 h-16 bg-teal-700 rounded-2xl flex items-center justify-center">
                 <div className="w-8 h-8 rounded-lg border-2 border-white flex items-center justify-center">
                   <div className="w-4 h-4 rounded-full bg-white"></div>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          {/* === Second Row of Cards === */}
+          <div className="bg-gradient-to-br from-purple-700 to-purple-600 rounded-3xl p-8 relative overflow-hidden">
+            <div className="relative z-10">
+              <div className="text-sm font-bold text-purple-300 mb-4">Business Consulting</div>
+              <h3 className="text-3xl font-bold mb-6">
+                Optimize your<br />
+                strategies
+              </h3>
+              <div className="w-16 h-16 border-2 border-white rounded-lg flex items-center justify-center">
+                <ChevronRight className="w-8 h-8 text-white" />
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-br from-green-700 to-green-600 rounded-3xl p-8 relative overflow-hidden">
+            <div className="relative z-10">
+              <div className="text-sm font-bold text-green-300 mb-4">Legal & Compliance</div>
+              <h3 className="text-3xl font-bold mb-6">
+                Stay<br />
+                compliant
+              </h3>
+              <div className="w-16 h-16 border-2 border-white rounded-lg flex items-center justify-center">
+                <ChevronRight className="w-8 h-8 text-white" />
               </div>
             </div>
           </div>
@@ -50,6 +75,7 @@ const ResourceSection = () => {
 };
 
 export default ResourceSection;
+
 
 {/* Tax Guide Resource */}
         {/* <div className="bg-gradient-to-r from-blue-900 via-teal-700 to-teal-600 rounded-3xl p-8 lg:p-12 relative overflow-hidden">

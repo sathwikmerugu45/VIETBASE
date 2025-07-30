@@ -1,12 +1,12 @@
-import React from 'react';
+// import React from 'react';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import ExpertiseSection from './components/ExpertiseSection';
 import ResourceSection from './components/ResourceSection';
 import NewsSection from './components/NewsSection';
 import ServicesSection from './components/ServicesSection';
-import ClientStoriesSection from './components/ClientStoriesSection';
-import RegionalExpansionSection from './components/RegionalExpansionSection';
+// import ClientStoriesSection from './components/ClientStoriesSection';
+// import RegionalExpansionSection from './components/RegionalExpansionSection';
 import AboutSection from './components/AboutSection';
 import ResourcesSection from './components/ResourcesSection';
 import Footer from './components/footer';
@@ -21,8 +21,8 @@ function App() {
       {/* <ResourceSection /> */}
       <NewsSection />
       <ServicesSection />
-      <ClientStoriesSection />
-      <RegionalExpansionSection />
+      {/* <ClientStoriesSection /> */}
+      {/* <RegionalExpansionSection /> */}
       <AboutSection />
       <ResourcesSection />
       <Footer />

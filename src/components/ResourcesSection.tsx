@@ -24,7 +24,7 @@ const ResourcesSection = () => {
   ];
 
   return (
-    <section className="bg-black text-white py-20">
+    <section className="bg-black text-white py-18">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">

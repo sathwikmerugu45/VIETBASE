@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         {/* Left Content */}
         <div className="space-y-6 lg:space-y-8 order-2 lg:order-1">
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight">
+          <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold leading-tight text-center md:text-left">
             Ready to build your<br />
             <span className="text-yellow-400">business in Vietnam?</span>
           </h1>
@@ -16,7 +16,7 @@ const HeroSection = () => {
           <div className="flex items-center space-x-4">
            <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden flex-shrink-0">
   <img 
-    src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400" 
+    src="https://clavistraconsultants.com/image2.jpg" 
     alt="VIETBASE Founder" 
     className="w-full h-full object-cover"
   />
@@ -27,7 +27,7 @@ const HeroSection = () => {
                 Our mission is to bridge foreign ambition with<br className="hidden md:block" />
                 local execution for sustainable success.
               </p>
-              <p className="text-gray-500 mt-1 md:mt-2 text-sm md:text-base">— VIETBASE Team</p>
+              <p className="text-gray-500 mt-1 md:mt-2 text-sm md:text-base">— KG</p>
             </div>
           </div>
 

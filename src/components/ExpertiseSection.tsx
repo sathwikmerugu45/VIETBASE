@@ -6,63 +6,105 @@ const ExpertiseSection = () => {
     <section className="bg-black text-white py-8 overflow-x-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Heading & Intro */}
-        <div className="mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-left text-white whitespace-normal">
-            If you want to do business in Vietnam,<br />
-            you will need an <span className="text-white">expert</span>.
-          </h2>
-          <p className="text-lg text-white-700 max-w-3xl mt-4">
-            We know how to navigate the complexities and challenges of the regional<br />
-            regulatory environment to make your Vietnam & Asia expansion<br />
-            compliant & seamless.
+        <div className="mb-2 px-4 md:px-8 lg:px-0">
+  <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-left text-white leading-snug">
+    If you want to do business in Vietnam,<br className="hidden sm:block" />
+    you will need an <span className="text-white">expert</span>.
+  </h2>
+  <p className="text-base sm:text-lg text-white max-w-2xl mt-4 leading-relaxed">
+    We know how to navigate the complexities and challenges of the regional
+    regulatory environment to make your Vietnam & Asia expansion
+    compliant & seamless.
+  </p>
+</div>
+
+ {/* Expertise Cards with Services Section Styling */}
+<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 md:py-12">
+  <div className="grid grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:grid-cols-4">
+    {/* Card 1 */}
+    <div className="group relative bg-gray-900 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
+      {/* Changed from gradient to bg-gray-900 */}
+      <div className="absolute inset-0 bg-yellow-500/10 rounded-xl border border-gray-700 group-hover:border-yellow-500/40 transition-all duration-300">
+        {/* Changed border color */}
+      </div>
+      <div className="relative space-y-3 sm:space-y-4 text-center flex-1 flex flex-col">
+        <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl bg-yellow-500/10 border-2 border-yellow-500 flex items-center justify-center mx-auto group-hover:bg-yellow-500/20 transition-colors duration-300 mb-2 sm:mb-4">
+          <Shield className="w-6 h-6 sm:w-8 sm:h-8 text-yellow-500" />
+        </div>
+        <h3 className="text-sm sm:text-lg md:text-xl text-white font-semibold sm:font-bold tracking-tight mb-2 sm:mb-3">Local knowledge</h3>
+        <div className="bg-gray-800 rounded-lg sm:rounded-xl px-3 py-2 sm:px-4 sm:py-3 border border-gray-700 group-hover:border-yellow-500/30 transition-colors duration-300 flex-1 flex items-center">
+          {/* Changed to bg-gray-800 */}
+          <p className="text-xs sm:text-sm leading-snug sm:leading-relaxed text-gray-300 w-full">
+            Our specialist team has grassroots knowledge and an acute local understanding.
           </p>
         </div>
+      </div>
+    </div>
 
-        {/* Expertise Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="space-y-4">
-            <div className="w-16 h-16 rounded-2xl border-2 border-yellow-400 flex items-center justify-center">
-              <Shield className="w-8 h-8 text-yellow-400" />
-            </div>
-            <h3 className="text-xl font-bold">Local knowledge</h3>
-            <p className="text-gray-400 text-sm leading-relaxed">
-              Our specialist team has grassroots knowledge and an acute local understanding of the market-specific intricacies and nuances.
-            </p>
-          </div>
-
-          <div className="space-y-4">
-            <div className="w-16 h-16 rounded-2xl border-2 border-yellow-400 flex items-center justify-center">
-              <Globe className="w-8 h-8 text-yellow-400" />
-            </div>
-            <h3 className="text-xl font-bold">Hands-on attention</h3>
-            <p className="text-gray-400 text-sm leading-relaxed">
-              All of our clients are treated with the same level of importance and get personalised, hands-on attention from our team.
-            </p>
-          </div>
-
-          <div className="space-y-4">
-            <div className="w-16 h-16 rounded-2xl border-2 border-yellow-400 flex items-center justify-center">
-              <Zap className="w-8 h-8 text-yellow-400" />
-            </div>
-            <h3 className="text-xl font-bold">Speed & flexibility</h3>
-            <p className="text-gray-400 text-sm leading-relaxed">
-              We can make swift and effective decisions on your behalf, cutting through bureaucracy and guiding you forward.
-            </p>
-          </div>
-
-          <div className="space-y-4">
-            <div className="w-16 h-16 rounded-2xl border-2 border-yellow-400 flex items-center justify-center">
-              <Link className="w-8 h-8 text-yellow-400" />
-            </div>
-            <h3 className="text-xl font-bold">Lasting commitment</h3>
-            <p className="text-gray-400 text-sm leading-relaxed">
-              We're in it for the long run. People who'll be helping you are owner-managers, with a stake in our firm and a real interest in your success.
-            </p>
-          </div>
+    {/* Card 2 */}
+    <div className="group relative bg-gray-900 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
+      {/* Changed from gradient to bg-gray-900 */}
+      <div className="absolute inset-0 bg-yellow-500/10 rounded-xl border border-gray-700 group-hover:border-yellow-500/40 transition-all duration-300">
+        {/* Changed border color */}
+      </div>
+      <div className="relative space-y-3 sm:space-y-4 text-center flex-1 flex flex-col">
+        <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl bg-yellow-500/10 border-2 border-yellow-500 flex items-center justify-center mx-auto group-hover:bg-yellow-500/20 transition-colors duration-300 mb-2 sm:mb-4">
+          <Globe className="w-6 h-6 sm:w-8 sm:h-8 text-yellow-500" />
         </div>
+        <h3 className="text-sm sm:text-lg md:text-xl text-white font-semibold sm:font-bold tracking-tight mb-2 sm:mb-3">Hands-on attention</h3>
+        <div className="bg-gray-800 rounded-lg sm:rounded-xl px-3 py-2 sm:px-4 sm:py-3 border border-gray-700 group-hover:border-yellow-500/30 transition-colors duration-300 flex-1 flex items-center">
+          {/* Changed to bg-gray-800 */}
+          <p className="text-xs sm:text-sm leading-snug sm:leading-relaxed text-gray-300 w-full">
+            All clients get personalised, hands-on attention from our team.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {/* Card 3 */}
+    <div className="group relative bg-gray-900 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
+      {/* Changed from gradient to bg-gray-900 */}
+      <div className="absolute inset-0 bg-yellow-500/10 rounded-xl border border-gray-700 group-hover:border-yellow-500/40 transition-all duration-300">
+        {/* Changed border color */}
+      </div>
+      <div className="relative space-y-3 sm:space-y-4 text-center flex-1 flex flex-col">
+        <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl bg-yellow-500/10 border-2 border-yellow-500 flex items-center justify-center mx-auto group-hover:bg-yellow-500/20 transition-colors duration-300 mb-2 sm:mb-4">
+          <Zap className="w-6 h-6 sm:w-8 sm:h-8 text-yellow-500" />
+        </div>
+        <h3 className="text-sm sm:text-lg md:text-xl text-white font-semibold sm:font-bold tracking-tight mb-2 sm:mb-3">Speed & flexibility</h3>
+        <div className="bg-gray-800 rounded-lg sm:rounded-xl px-3 py-2 sm:px-4 sm:py-3 border border-gray-700 group-hover:border-yellow-500/30 transition-colors duration-300 flex-1 flex items-center">
+          {/* Changed to bg-gray-800 */}
+          <p className="text-xs sm:text-sm leading-snug sm:leading-relaxed text-gray-300 w-full">
+            Swift decisions cutting through bureaucracy.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {/* Card 4 */}
+    <div className="group relative bg-gray-900 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
+      {/* Changed from gradient to bg-gray-900 */}
+      <div className="absolute inset-0 bg-yellow-500/10 rounded-xl border border-gray-700 group-hover:border-yellow-500/40 transition-all duration-300">
+        {/* Changed border color */}
+      </div>
+      <div className="relative space-y-3 sm:space-y-4 text-center flex-1 flex flex-col">
+        <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl bg-yellow-500/10 border-2 border-yellow-500 flex items-center justify-center mx-auto group-hover:bg-yellow-500/20 transition-colors duration-300 mb-2 sm:mb-4">
+          <Link className="w-6 h-6 sm:w-8 sm:h-8 text-yellow-500" />
+        </div>
+        <h3 className="text-sm sm:text-lg md:text-xl text-white font-semibold sm:font-bold tracking-tight mb-2 sm:mb-3">Lasting commitment</h3>
+        <div className="bg-gray-800 rounded-lg sm:rounded-xl px-3 py-2 sm:px-4 sm:py-3 border border-gray-700 group-hover:border-yellow-500/30 transition-colors duration-300 flex-1 flex items-center">
+          {/* Changed to bg-gray-800 */}
+          <p className="text-xs sm:text-sm leading-snug sm:leading-relaxed text-gray-300 w-full">
+            Owner-managers with real interest in your success.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
         {/* Tax Guide Resource */}
-        <div className="bg-gradient-to-r from-blue-900 via-teal-700 to-teal-600 rounded-3xl p-6 sm:p-8 lg:p-12 mt-20 relative overflow-hidden">
+        <div className="bg-gradient-to-r from-blue-900 via-teal-700 to-teal-600 rounded-3xl p-6 sm:p-8 lg:p-12 mt-18 relative overflow-hidden">
           {/* Navigation Arrows */}
           <div className="absolute right-4 top-4 sm:right-8 sm:top-8 z-10">
             <div className="flex space-x-2">

@@ -6,16 +6,22 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-sm w-full overflow-x-hidden">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-        {/* Logo */}
-        <div className="flex items-center space-x-3">
-          <div className="w-12 h-12 md:w-12 md:h-12 rounded-full border-2 border-white overflow-hidden">
-            <img src={logo} alt="Logo" className="w-full h-full object-cover" />
-          </div>
-          <div className="text-white">
-            <div className="font-bold text-sm md:text-lg tracking-wider">VIETBASE</div>
-            <div className="text-xs md:text-sm tracking-widest">CONSULTING</div>
-          </div>
-        </div>
+       {/* Logo */}
+{/* Logo with expanded visibility */}
+<div className="flex items-center space-x-3">
+  <div className="w-12 h-12 md:w-12 md:h-12 rounded-full border-2 border-white overflow-hidden relative">
+    <img 
+      src={logo} 
+      alt="VIETBASE Logo" 
+      className="absolute top-1/2 left-1/2 w-[110%] h-[110%] object-contain -translate-x-1/2 -translate-y-1/2" 
+      style={{ minWidth: '110%', minHeight: '110%' }}
+    />
+  </div>
+  <div className="text-white">
+    <div className="font-bold text-sm md:text-lg tracking-wider">VIETBASE</div>
+    <div className="text-xs md:text-sm tracking-widest">CONSULTING CO.</div>
+  </div>
+</div>
 
         {/* Mobile Navigation (Hamburger only) */}
         <div className="flex items-center md:hidden">

@@ -5,18 +5,18 @@ const ResourceSection = () => {
   return ( 
     <section className="bg-black text-white pb-0   pt-12 lg:pt-0">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="mb-12 md:mb-16 -mt-4 md:-mt-10 lg:-mt-10">  
+    <div className="mb-6 md:mb-10 -mt-6 md:-mt-10 lg:-mt-10">  
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-left text-white whitespace-nowrap">
         Find the right solution
       </h2>
         </div>
 
         {/* Resource Cards */}
-        <div className="grid grid-cols-1 pb-0 lg:grid-cols-2 gap-8 mb-8">
+        <div className="grid grid-cols-1 pt-0 pb-0 lg:grid-cols-2 gap-8 mb-8">
           {/* Vietnam Market Entry Card */}
           <div className="bg-gradient-to-br from-blue-900 to-blue-800 rounded-3xl p-8 relative overflow-hidden">
             <div className="relative z-10">
-              <div className="text-sm text-blue-300 mb-4">Vietnam market entry</div>
+              <div className="font-bold text-sm text-blue-300 mb-4">Vietnam Market Entry</div>
               <h3 className="text-3xl font-bold mb-6">
                 Expand your<br />
                 foreign business
@@ -30,11 +30,11 @@ const ResourceSection = () => {
           {/* Operational Support Card */}
           <div className="bg-gradient-to-br from-teal-600 to-teal-500 rounded-3xl p-8 relative overflow-hidden">
             <div className="relative z-10">
-              <div className="text-sm text-teal-200 mb-4">Operational support</div>
+              <div className="text-sm font-bold text-teal-200 mb-4">Operational Support</div>
               <h3 className="text-3xl font-bold mb-6">
-                Manage & grow<br />
-                your Vietnam<br />
-                business
+                Grow your<br />
+                Vietnam business<br />
+                
               </h3>
               <div className="w-16 h-16 bg-teal-700 rounded-2xl flex items-center justify-center">
                 <div className="w-8 h-8 rounded-lg border-2 border-white flex items-center justify-center">

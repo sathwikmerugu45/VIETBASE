@@ -7,10 +7,16 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         {/* Left Content */}
         <div className="space-y-6 lg:space-y-8 order-2 lg:order-1">
-          <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold leading-tight text-center md:text-left">
-            Ready to build your<br />
-            <span className="text-yellow-400">business in Vietnam?</span>
-          </h1>
+         <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold leading-tight text-center md:text-left">
+  <span>Ready to build</span><br />
+  <span>your business</span><br />
+  <span className="text-yellow-400">
+    <span className="text-[0.9em]">in</span> Vietnam?
+  </span>
+</h1>
+
+
+
     
           {/* Creator Info */}
           <div className="flex items-center space-x-4">

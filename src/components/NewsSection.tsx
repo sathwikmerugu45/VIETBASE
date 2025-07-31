@@ -47,10 +47,10 @@ const NewsSection = () => {
       title: "Expand your trading business in Vietnam: Market entry and online growth strategies", 
       date: "July 10, 2025"
     },
-    {
-      title: "Developments in Vietnam's Tax Landscape – An overview of key changes in the past 12 months and what",
-      date: "July 8, 2025"
-    }
+    // {
+    //   title: "Developments in Vietnam's Tax Landscape – An overview of key changes in the past 12 months and what",
+    //   date: "July 8, 2025"
+    // }
   ];
 
   return (
@@ -97,25 +97,24 @@ const NewsSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Latest Podcasts */}
           <div>
-            <h3 className="text-2xl font-bold mb-8 text-white-800">Latest podcasts</h3>
+            <h3 className="text-2xl font-bold mb-8 text-white-800">Upcoming & recent events</h3>
             <div className="space-y-6">
-              {podcasts.map((podcast, index) => (
+              {events.map((event, index) => (
                 <div key={index} className="flex items-start space-x-4 group cursor-pointer">
-                  <div className="w-8 h-6 bg-yellow-400 rounded flex-shrink-0 mt-1"></div>
+                  <div className="w-6 h-6 bg-yellow-400 rounded flex-shrink-0 mt-1"></div>
                   <div className="flex-1">
                     <h4 className="font-semibold group-hover:text-yellow-400 transition-colors mb-1">
-                      {podcast.title}
+                      {event.title}
                     </h4>
-                    <div className="text-sm text-gray-400">{podcast.episode}</div>
+                    <div className="text-sm text-gray-400">{event.date}</div>
                   </div>
                 </div>
               ))}
             </div>
           </div>
-
           {/* Upcoming Events */}
           <div>
-            <h3 className="text-2xl font-bold mb-8 text-white-800">Upcoming & recent events</h3>
+            <h3 className="text-2xl font-bold mb-16 text-white-800"></h3>
             <div className="space-y-6">
               {events.map((event, index) => (
                 <div key={index} className="flex items-start space-x-4 group cursor-pointer">

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Shield, Globe, Zap, Link, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const ExpertiseSection = () => {
@@ -24,41 +23,42 @@ const ExpertiseSection = () => {
 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
     {/* Card 1 - Blue */}
-    <div className="group relative h-full flex flex-col rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
-      {/* Top Section */}
-      <div className="bg-gray-900 p-6 sm:p-7 flex flex-col items-center flex-1">
-        <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-yellow-500/10 border-2 border-yellow-500 flex items-center justify-center mx-auto mb-3 group-hover:bg-yellow-500/20 transition-colors duration-300">
-          <Shield className="w-7 h-7 text-yellow-500" />
-        </div>
-        <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 text-center">
-          Local <><br /></>Knowledge
-        </h3>
-        <div className="h-px w-12 sm:w-16 bg-yellow-500/40 mt-auto mb-0 mx-auto"></div>
-      </div>
-      
-      {/* Bottom Section */}
-      <div className="bg-blue-600/90 p-5 sm:p-6 flex items-start h-[120px]">
-        <p className="text-gray-100 text-sm sm:text-base leading-normal text-left w-full">
-          Our specialist team has grassroots knowledge and an acute local understanding.
-        </p>
-      </div>
+    <div className="group relative h-full flex flex-col rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 border border-white-500">
+  {/* Top Section */}
+  <div className="bg-black-900 p-6 sm:p-7 flex flex-col items-center flex-1">
+    <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-yellow-500/10 border-2 border-yellow-500 flex items-center justify-center mx-auto mb-2 group-hover:bg-yellow-500/20 transition-colors duration-300 relative -mt-3">
+      <Shield className="w-7 h-7 text-yellow-500" />
     </div>
+    <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 text-center mt-0">
+      Local <><br /></>Knowledge
+    </h3>
+    <div className="h-px w-12 sm:w-16 bg-yellow-500/40 mt-auto mb-0 mx-auto"></div>
+  </div>
+
+  {/* Bottom Section */}
+  <div className="bg-teal-600/90 p-5 sm:p-6 flex items-start h-[120px]">
+    <p className="text-gray-100 text-sm sm:text-base leading-normal text-left w-full">
+      Our specialist team has grassroots knowledge and an acute local understanding.
+    </p>
+  </div>
+</div>
+
 
     {/* Card 2 - Teal */}
-    <div className="group relative h-full flex flex-col rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+    <div className="group relative h-full flex flex-col rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 border border-white-500">
       {/* Top Section */}
-      <div className="bg-gray-900 p-6 sm:p-7 flex flex-col items-center flex-1">
-        <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-yellow-500/10 border-2 border-yellow-500 flex items-center justify-center mx-auto mb-3 group-hover:bg-yellow-500/20 transition-colors duration-300">
+  <div className="bg-black-900 p-6 sm:p-7 flex flex-col items-center flex-1">
+        <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-yellow-500/10 border-2 border-yellow-500 flex items-center justify-center mx-auto mb-3 group-hover:bg-yellow-500/20 transition-colors duration-300 relative -mt-3">
           <Globe className="w-7 h-7 text-yellow-500" />
         </div>
-        <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 text-center">
+        <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 text-center mt-0">
           Hands-on Attention
         </h3>
         <div className="h-px w-12 sm:w-16 bg-yellow-500/40 mt-auto mb-0 mx-auto"></div>
       </div>
       
       {/* Bottom Section */}
-      <div className="bg-teal-600/90 p-5 sm:p-6 flex items-start h-[120px]">
+      <div className="bg-yellow-700 p-5 sm:p-6 flex items-start h-[120px]">
         <p className="text-gray-100 text-sm sm:text-base leading-normal text-left w-full">
           All clients get personalised, hands-on attention from our team.
         </p>
@@ -66,20 +66,20 @@ const ExpertiseSection = () => {
     </div>
 
     {/* Card 3 - Purple */}
-    <div className="group relative h-full flex flex-col rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+    <div className="group relative h-full flex flex-col rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 border border-white-500">
       {/* Top Section */}
-      <div className="bg-gray-900 p-6 sm:p-7 flex flex-col items-center flex-1">
-        <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-yellow-500/10 border-2 border-yellow-500 flex items-center justify-center mx-auto mb-3 group-hover:bg-yellow-500/20 transition-colors duration-300">
+  <div className="bg-black-900 p-6 sm:p-7 flex flex-col items-center flex-1">
+        <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-yellow-500/10 border-2 border-yellow-500 flex items-center justify-center mx-auto mb-3 group-hover:bg-yellow-500/20 transition-colors duration-300 relative -mt-3">
           <Zap className="w-7 h-7 text-yellow-500" />
         </div>
-        <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 text-center">
+        <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 text-center mt-0">
           Speed & Flexibility
         </h3>
         <div className="h-px w-12 sm:w-16 bg-yellow-500/40 mt-auto mb-0 mx-auto"></div>
       </div>
       
       {/* Bottom Section */}
-      <div className="bg-purple-600/90 p-5 sm:p-6 flex items-start h-[120px]">
+      <div className="bg-teal-600/90 p-5 sm:p-6 flex items-start h-[120px]">
         <p className="text-gray-100 text-sm sm:text-base leading-normal text-left w-full">
           Swift decisions cutting through bureaucracy.
         </p>
@@ -87,20 +87,20 @@ const ExpertiseSection = () => {
     </div>
 
     {/* Card 4 - Amber */}
-    <div className="group relative h-full flex flex-col rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+    <div className="group relative h-full flex flex-col rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 border border-white-500">
       {/* Top Section */}
-      <div className="bg-gray-900 p-6 sm:p-7 flex flex-col items-center flex-1">
-        <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-yellow-500/10 border-2 border-yellow-500 flex items-center justify-center mx-auto mb-3 group-hover:bg-yellow-500/20 transition-colors duration-300">
+  <div className="bg-black-900 p-6 sm:p-7 flex flex-col items-center flex-1">
+        <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-yellow-500/10 border-2 border-yellow-500 flex items-center justify-center mx-auto mb-3 group-hover:bg-yellow-500/20 transition-colors duration-300 relative -mt-3">
           <Link className="w-7 h-7 text-yellow-500" />
         </div>
-        <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 text-center">
+        <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 text-center mt-0">
           Lasting Commitment
         </h3>
         <div className="h-px w-12 sm:w-16 bg-yellow-500/40 mt-auto mb-2 mx-auto"></div>
       </div>
       
       {/* Bottom Section */}
-      <div className="bg-amber-600/90 p-5 sm:p-6 flex items-start h-[120px]">
+      <div className="bg-yellow-700 p-5 sm:p-6 flex items-start h-[120px]">
         <p className="text-gray-100 text-sm sm:text-base leading-normal text-left w-full">
           Owner-managers with real interest in your success.
         </p>

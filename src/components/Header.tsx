@@ -11,12 +11,12 @@ const Header = () => {
 
   const navItems = [
     { label: 'Services', href: '#' },
-    { label: 'Market entry', href: '#' },
-    { label: 'News & insights', href: '#' },
+    { label: 'Market Entry', href: '#' },
+    { label: 'News & Insights', href: '#' },
     { label: 'Resources', href: '#' },
-    { label: 'About us', href: '#' },
+    { label: 'About Us', href: '#' },
     { label: 'Careers', href: '#' },
-    { label: 'Q', href: '#' }
+    // { label: 'Q', href: '#' }
   ];
 
   return (
@@ -34,8 +34,8 @@ const Header = () => {
               />
             </div>
             <div className="text-white">
-              <div className="font-bold text-sm md:text-lg tracking-wider">VIETBASE</div>
-              <div className="text-xs md:text-sm tracking-widest">CONSULTING CO.</div>
+              <div className="font-bold text-sm md:text-2xl tracking-wider">VIETBASE</div>
+              <div className="text-[0.62rem] tracking-[0.65em]">CONSULTING</div>
             </div>
           </div>
 
@@ -52,24 +52,25 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6 lg:space-x-8">
-            {navItems.map((item, index) => (
-              <a
-                key={index}
-                href={item.href}
-                className={`text-white hover:text-yellow-400 transition-colors ${item.label === 'Resources' ? 'flex items-center' : ''}`}
-              >
-                {item.label}
-                {item.label === 'Resources' && (
-                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                )}
-              </a>
-            ))}
-            <button className="bg-transparent border-2 border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition-all ml-4">
-              Get Consultation
-            </button>
-          </nav>
+  {navItems.map((item, index) => (
+    <a
+      key={index}
+      href={item.href}
+      className={`text-white text-lg hover:text-yellow-400 transition-colors ${item.label === 'Resources' ? 'flex items-center' : ''}`}
+    >
+      {item.label}
+      {item.label === 'Resources' && (
+        <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      )}
+    </a>
+  ))}
+  <button className="bg-transparent border-2 border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition-all ml-4 text-lg">
+    Get Consultation
+  </button>
+</nav>
+
         </div>
 
         {/* Mobile Menu - Vertical Layout */}

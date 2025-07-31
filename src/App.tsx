@@ -8,8 +8,9 @@ import ServicesSection from './components/ServicesSection';
 // import ClientStoriesSection from './components/ClientStoriesSection';
 // import RegionalExpansionSection from './components/RegionalExpansionSection';
 import AboutSection from './components/AboutSection';
-import ResourcesSection from './components/ResourcesSection';
+// import ResourcesSection from './components/ResourcesSection';
 import Footer from './components/footer';
+import Team from './components/Team';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <ClientStoriesSection /> */}
       {/* <RegionalExpansionSection /> */}
       <AboutSection />
-      <ResourcesSection />
+      <Team />
+      {/* <ResourcesSection /> */}
       <Footer />
     </div>
   );

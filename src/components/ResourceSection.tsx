@@ -14,57 +14,55 @@ const ResourceSection = () => {
         {/* Grid for all 4 cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-8">
           {/* === First Row of Cards === */}
-          <div className="bg-gradient-to-br from-blue-900 to-blue-800 rounded-3xl p-8 relative overflow-hidden">
+           <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-8 relative overflow-hidden border border-gray-700 hover:border-yellow-400 transition-all">
             <div className="relative z-10">
-              <div className="font-bold text-sm text-blue-300 mb-4">Vietnam Market Entry</div>
+              <div className="font-bold text-sm text-yellow-400 mb-4">Vietnam Market Entry</div>
               <h3 className="text-3xl font-bold mb-6">
                 Expand your<br />
                 foreign business
               </h3>
-              <div className="w-16 h-16 border-2 border-white rounded-lg flex items-center justify-center">
-                <ChevronRight className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 border-2 border-yellow-400 rounded-lg flex items-center justify-center hover:bg-yellow-400 hover:text-black transition-colors">
+                <ChevronRight className="w-8 h-8" />
               </div>
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-teal-600 to-teal-500 rounded-3xl p-8 relative overflow-hidden">
+          <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-8 relative overflow-hidden border border-gray-700 hover:border-yellow-400 transition-all">
             <div className="relative z-10">
-              <div className="text-sm font-bold text-teal-200 mb-4">Operational Support</div>
+              <div className="text-sm font-bold text-yellow-400 mb-4">Operational Support</div>
               <h3 className="text-3xl font-bold mb-6">
                 Grow your<br />
                 Vietnam business
               </h3>
-              <div className="w-16 h-16 bg-teal-700 rounded-2xl flex items-center justify-center">
-                <div className="w-8 h-8 rounded-lg border-2 border-white flex items-center justify-center">
-                  <div className="w-4 h-4 rounded-full bg-white"></div>
-                </div>
+              <div className="w-16 h-16 border-2 border-yellow-400 rounded-lg flex items-center justify-center hover:bg-yellow-400 hover:text-black transition-colors">
+                <ChevronRight className="w-8 h-8" />
               </div>
             </div>
           </div>
 
           {/* === Second Row of Cards === */}
-          <div className="bg-gradient-to-br from-purple-700 to-purple-600 rounded-3xl p-8 relative overflow-hidden">
+          <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-8 relative overflow-hidden border border-gray-700 hover:border-yellow-400 transition-all">
             <div className="relative z-10">
-              <div className="text-sm font-bold text-purple-300 mb-4">Business Consulting</div>
+              <div className="text-sm font-bold text-yellow-400 mb-4">Business Consulting</div>
               <h3 className="text-3xl font-bold mb-6">
                 Optimize your<br />
                 strategies
               </h3>
-              <div className="w-16 h-16 border-2 border-white rounded-lg flex items-center justify-center">
-                <ChevronRight className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 border-2 border-yellow-400 rounded-lg flex items-center justify-center hover:bg-yellow-400 hover:text-black transition-colors">
+                <ChevronRight className="w-8 h-8" />
               </div>
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-green-700 to-green-600 rounded-3xl p-8 relative overflow-hidden">
+          <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-8 relative overflow-hidden border border-gray-700 hover:border-yellow-400 transition-all">
             <div className="relative z-10">
-              <div className="text-sm font-bold text-green-300 mb-4">Legal & Compliance</div>
+              <div className="text-sm font-bold text-yellow-400 mb-4">Legal & Compliance</div>
               <h3 className="text-3xl font-bold mb-6">
                 Stay<br />
                 compliant
               </h3>
-              <div className="w-16 h-16 border-2 border-white rounded-lg flex items-center justify-center">
-                <ChevronRight className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 border-2 border-yellow-400 rounded-lg flex items-center justify-center hover:bg-yellow-400 hover:text-black transition-colors">
+                <ChevronRight className="w-8 h-8" />
               </div>
             </div>
           </div>

@@ -69,11 +69,7 @@ const Footer = () => {
               <li><a href="#" className="hover:text-yellow-400 transition-colors">Podcasts</a></li>
               <li><a href="#" className="hover:text-yellow-400 transition-colors">Vietbase Conversations</a></li>
             </ul>
-          </div>
-        </div>
-
-        {/* Social Media */}
-        <div className="flex justify-end space-x-4 mt-12 pt-8 border-t border-gray-800">
+            <div className="flex justify-end space-x-4 mt-12 pt-8 border-t border-gray-800">
           <a href="#" className="w-10 h-10 bg-yellow-400 text-black rounded-full flex items-center justify-center hover:bg-yellow-300 transition-colors">
             <Linkedin className="w-5 h-5" />
           </a>
@@ -84,6 +80,22 @@ const Footer = () => {
             <Youtube className="w-5 h-5" />
           </a>
         </div>
+          </div>
+          
+        </div>
+
+        {/* Social Media */}
+        {/* <div className="flex justify-end space-x-4 mt-12 pt-8 border-t border-gray-800">
+          <a href="#" className="w-10 h-10 bg-yellow-400 text-black rounded-full flex items-center justify-center hover:bg-yellow-300 transition-colors">
+            <Linkedin className="w-5 h-5" />
+          </a>
+          <a href="#" className="w-10 h-10 bg-yellow-400 text-black rounded-full flex items-center justify-center hover:bg-yellow-300 transition-colors">
+            <Facebook className="w-5 h-5" />
+          </a>
+          <a href="#" className="w-10 h-10 bg-yellow-400 text-black rounded-full flex items-center justify-center hover:bg-yellow-300 transition-colors">
+            <Youtube className="w-5 h-5" />
+          </a>
+        </div> */}
       </div>
     </footer>
   );

@@ -9,11 +9,12 @@ const HeroSection = () => {
         <div className="space-y-6 lg:space-y-8 order-2 lg:order-1">
          <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold leading-tight text-center md:text-left">
   <span>Ready to build</span><br />
-  <span>your business</span><br />
-  <span className="text-yellow-400">
+  <div className="text-center">your business</div> {/* Centered 2nd line */}
+  <div className="text-center text-yellow-400">
     <span className="text-[0.9em]">in</span> Vietnam?
-  </span>
+  </div> {/* Centered 3rd line */}
 </h1>
+
 
 
 

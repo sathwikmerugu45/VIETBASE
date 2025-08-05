@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Team = () => {
   return (
-    <section className="bg-black text-white py-16 md:py-10 lg:py-18 px-4 sm:px-6">
+    <section className="bg-black text-white py-16 md:py-10 lg:py-10 px-4 sm:px-6">
       <div className="max-w-7xl mx-auto">
         {/* Animated Heading */}
         <motion.h1

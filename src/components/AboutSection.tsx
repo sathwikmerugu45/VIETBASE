@@ -14,8 +14,13 @@ const ItalicizeCaps: React.FC<ItalicizeCapsProps> = ({ text }) => {
     );
   };
 
-  return <p className="mt-2 text-lg text-gray-400 leading-relaxed">{processText(text)}</p>;
+  return (
+    <p className="mt-2 text-lg text-gray-400 leading-relaxed text-justify hyphens-auto">
+      {processText(text)}
+    </p>
+  );
 };
+
 
 const AboutSection = () => {
   const [activeIndex, setActiveIndex] = useState<number>(0);
@@ -53,7 +58,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="bg-black text-white py-16 md:py-20 lg:py-20 px-4 sm:px-6">
+    <section className="bg-black text-white py-16 md:py-20 lg:py-8 px-4 sm:px-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           

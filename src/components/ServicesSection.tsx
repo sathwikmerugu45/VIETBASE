@@ -6,7 +6,7 @@ const ServicesSection = () => {
     <section className="bg-black text-white py-18 md:py-20 lg:py-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="mb-12 md:mb-16 lg:mb-20 text-center">
+        <div className="mb-12 md:mb-16 lg:mb-10 text-center">
           <div className="text-yellow-400 text-sm md:text-base font-medium mb-3 md:mb-4 tracking-wider">
             ● OUR SERVICES
           </div>
@@ -14,12 +14,14 @@ const ServicesSection = () => {
             Corporate services for every<br className="hidden sm:block" /> 
             part of your <span className="text-white">journey</span><span className="text-yellow-400">.</span>
           </h2>
-          <p className="text-base md:text-lg text-gray-300 max-w-4xl mx-auto leading-relaxed md:leading-loose">
+          <p className="text-sm sm:text-base md:text-lg text-gray-300 max-w-[90%] sm:max-w-3xl md:max-w-4xl mx-auto leading-relaxed md:leading-loose text-justify hyphens-auto">
   Find intelligent answers to the most complex administrative&nbsp;issues you'll come up against as your&nbsp;business 
   expands into Vietnam and beyond. From&nbsp;establishing an investment vehicle through&nbsp;providing support for cross-border 
   transactions to&nbsp;setting up a fully operational local or&nbsp;regional presence, we will help you make&nbsp;the most out of every 
   incentive and benefit this&nbsp;unique region has to offer. Ask us for&nbsp;solutions, not just advice.
 </p>
+
+
         </div>
 
         {/* Service Categories */}

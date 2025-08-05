@@ -6,13 +6,15 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 xl:gap-20 items-center">
         {/* Left Content */}
         <div className="space-y-8 lg:space-y-10 order-2 lg:order-1">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-center md:text-left">
-            <span>Ready to build</span><br />
-            <div className="text-center md:text-left">your business</div>
-            <div className="text-center md:text-left text-yellow-400">
-              <span className="text-[0.9em]">in</span> Vietnam?
-            </div>
-          </h1>
+         <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-center">
+  <div>Ready to build</div>
+  <div>your business</div>
+  <div className="text-yellow-400">
+    <span className="text-[0.9em]">in</span> Vietnam?
+  </div>
+</h1>
+
+
 
           {/* Creator Info */}
           <div className="flex items-center space-x-4 mt-6 md:mt-8">

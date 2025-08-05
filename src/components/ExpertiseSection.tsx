@@ -10,7 +10,7 @@ const ExpertiseSection = () => {
     If you want to do business in Vietnam,<br className="hidden sm:block" />
     you will need an <span className="text-white">expert</span>.
   </h2>
-  <p className="text-sm sm:text-base text-white mt-4 leading-relaxed whitespace-nowrap w-full overflow-x-auto">
+  <p className="text-sm sm:text-base text-white mt-4 leading-relaxed w-full sm:whitespace-nowrap">
   We know how to navigate the complexities and challenges of the regional regulatory environment to make your Vietnam & Asia expansion compliant & seamless.
 </p>
 

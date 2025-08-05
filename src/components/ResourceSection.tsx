@@ -27,7 +27,38 @@ const ResourceSection = () => {
 </div>
 
           {/* === Card 2: Green Border === */}
+          
+
+        
+          {/* === Card 4: Green Background === */}
+
+          {/* === Card 2: Green Border === */}
           <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-8 relative overflow-hidden border-2 border-green-400 hover:border-green-400 transition-all">
+            <div className="relative z-10">
+              <div className="text-sm font-bold text-green-400 mb-4">Buisiness Consulting</div>
+              <h3 className="text-3xl font-bold mb-6">
+                Optimize your<br />
+                Strategies
+              </h3>
+              <div className="w-16 h-16 border-2 border-green-400 rounded-lg flex items-center justify-center hover:bg-green-400 hover:text-black transition-colors">
+                <ChevronRight className="w-8 h-8" />
+              </div>
+            </div>
+          </div>
+          
+          <div className="bg-gradient-to-br from-black-900 to-gray-800 rounded-3xl p-8 relative overflow-hidden border-2 border-yellow-400 hover:border-yellow-400 transition-all">
+  <div className="relative z-10">
+    <div className="font-bold text-sm text-yellow-400 mb-4">Legal & Compliance</div>
+    <h3 className="text-3xl font-bold mb-6 text-yellow-400">
+      Stay<br />
+      compliant
+    </h3>
+    <div className="w-16 h-16 border-2 border-yellow-400 rounded-lg flex items-center justify-center hover:bg-yellow-400 hover:text-black transition-colors">
+      <ChevronRight className="w-8 h-8" />
+    </div>
+  </div>
+</div>
+<div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-8 relative overflow-hidden border-2 border-green-400 hover:border-green-400 transition-all">
             <div className="relative z-10">
               <div className="text-sm font-bold text-green-400 mb-4">Operational Support</div>
               <h3 className="text-3xl font-bold mb-6">
@@ -35,40 +66,6 @@ const ResourceSection = () => {
                 Vietnam business
               </h3>
               <div className="w-16 h-16 border-2 border-green-400 rounded-lg flex items-center justify-center hover:bg-green-400 hover:text-black transition-colors">
-                <ChevronRight className="w-8 h-8" />
-              </div>
-            </div>
-          </div>
-
-        
-          {/* === Card 4: Green Background === */}
-
-          <div className="relative rounded-3xl p-8 bg-gradient-to-br from-yellow-400 via-yellow-400 to-yellow-500 text-black overflow-hidden shadow-[inset_0_1px_1px_rgba(255,255,255,0.8),0_0_30px_rgba(202,138,4,0.7)] hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.8),0_0_50px_rgba(202,138,4,0.9)] transition-all duration-300 border border-yellow-200/20">
-  {/* Metallic sheen effect */}
-  <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(0,0,0,0.1)_70%)] rounded-3xl pointer-events-none"></div>
-  {/* Diagonal reflective streaks */}
-  <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(255,255,255,0.15)_0%,rgba(255,255,255,0.05)_20%,transparent_30%,transparent_70%,rgba(255,255,255,0.05)_80%,rgba(255,255,255,0.15)_100%)] rounded-3xl pointer-events-none"></div>
-  
-  {/* Content */}
-  <div className="relative z-10">
-    <div className="text-sm font-bold text-black/80 mb-4">Business Consulting</div>
-    <h3 className="text-3xl font-bold mb-6">
-      Optimize your<br />
-      strategies
-    </h3>
-    <div className="w-16 h-16 border-2 border-black/80 rounded-lg flex items-center justify-center hover:bg-black hover:text-yellow-400 transition-colors backdrop-blur-[1px]">
-      <ChevronRight className="w-8 h-8" />
-    </div>
-  </div>
-</div>
-          <div className="bg-green-400 text-black rounded-3xl p-8 relative overflow-hidden transition-all">
-            <div className="relative z-10">
-              <div className="text-sm font-bold text-black mb-4">Legal & Compliance</div>
-              <h3 className="text-3xl font-bold mb-6">
-                Stay<br />
-                compliant
-              </h3>
-              <div className="w-16 h-16 border-2 border-black rounded-lg flex items-center justify-center hover:bg-black hover:text-green-400 transition-colors">
                 <ChevronRight className="w-8 h-8" />
               </div>
             </div>

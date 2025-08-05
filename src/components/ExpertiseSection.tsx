@@ -16,52 +16,47 @@ const ExpertiseSection = () => {
 
 </div>
 
- {/* Expertise Cards with Services Section Styling */}
-{/* Mobile-Optimized Expertise Cards */}
-{/* WWE-Style Expertise Cards */}
 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
-   {/* Card 1 - Blue */}
-{/* Card 1 - Blue */}
-{/* Card 1 - Blue */}
-<div className="bg-black rounded-xl border-2 border-yellow-400 shadow-lg w-50 overflow-hidden">
-  {/* Top Section */}
-  <div className="flex flex-col items-center pt-8 pb-4">
-    <div className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-yellow-400 bg-yellow-400/10">
-      <Shield
-        className="w-6 h-6 text-yellow-300"
-        style={{
-          filter: 'brightness(1.5) drop-shadow(0 0 3px #facc15)',
-        }}
-      />
-    </div>
-    <h3 className="text-white font-bold text-lg text-center mt-3 leading-tight">
-      Local<br />Knowledge
-    </h3>
-  </div>
-
-  {/* Bottom Section */}
-  <div className="bg-neutral-800 px-5 py-4 rounded-b-xl border-t border-neutral-700">
-    <p className="text-gray-200 text-sm leading-relaxed text-center">
-      Our specialist team has grassroots knowledge<br />
-      and an acute local understanding.
-    </p>
-  </div>
-</div>
-<div className="bg-black rounded-xl border border-neutral-800 shadow-lg w-64 overflow-hidden">
+    {/* Card 1 - Blue */}
+    <div className="bg-black rounded-xl border-2 border-yellow-400 shadow-lg w-50 overflow-hidden">
       {/* Top Section */}
-      <div className="flex flex-col items-center pt-8 pb-4">
+      <div className="flex flex-col items-center pt-6 pb-4"> {/* Reduced pt-8 to pt-6 */}
+        <div className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-yellow-400 bg-yellow-400/10">
+          <Shield
+            className="w-6 h-6 text-yellow-300"
+            style={{
+              filter: 'brightness(1.5) drop-shadow(0 0 3px #facc15)',
+            }}
+          />
+        </div>
+        <h3 className="text-white font-bold text-lg text-center mt-3 leading-tight">
+          Local<br />Knowledge
+        </h3>
+      </div>
+
+      {/* Bottom Section */}
+      <div className="bg-neutral-800 px-5 py-4 rounded-b-xl border-t border-neutral-700">
+        <p className="text-gray-200 text-sm leading-relaxed text-center">
+          Our specialist team has grassroots knowledge<br />
+          and an acute local understanding.
+        </p>
+      </div>
+    </div>
+
+    <div className="bg-black rounded-xl border-2 border-yellow-400 shadow-lg w-50 overflow-hidden">
+      {/* Top Section */}
+      <div className="flex flex-col items-center pt-6 pb-4"> {/* Reduced pt-8 to pt-6 */}
         <div className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-yellow-400">
           <Globe
             className="w-6 h-6 text-yellow-300"
             style={{
-              filter:
-                'brightness(1.5) drop-shadow(0 0 3px #facc15)',
+              filter: 'brightness(1.5) drop-shadow(0 0 3px #facc15)',
             }}
           />
         </div>
         <h3 className="text-white font-bold text-lg text-center mt-3 leading-tight">
-          Local<br />Knowledge
+          Global<br />Network
         </h3>
       </div>
 
@@ -74,20 +69,19 @@ const ExpertiseSection = () => {
       </div>
     </div>
 
-      <div className="bg-black rounded-xl border border-neutral-800 shadow-lg w-64 overflow-hidden">
+    <div className="bg-black rounded-xl border-2 border-yellow-400 shadow-lg w-50 overflow-hidden">
       {/* Top Section */}
-      <div className="flex flex-col items-center pt-8 pb-4">
+      <div className="flex flex-col items-center pt-6 pb-4"> {/* Reduced pt-8 to pt-6 */}
         <div className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-yellow-400">
           <Zap
             className="w-6 h-6 text-yellow-300"
             style={{
-              filter:
-                'brightness(1.5) drop-shadow(0 0 3px #facc15)',
+              filter: 'brightness(1.5) drop-shadow(0 0 3px #facc15)',
             }}
           />
         </div>
         <h3 className="text-white font-bold text-lg text-center mt-3 leading-tight">
-          Local<br />Knowledge
+          Fast<br />Execution
         </h3>
       </div>
 
@@ -100,20 +94,19 @@ const ExpertiseSection = () => {
       </div>
     </div>
 
-      <div className="bg-black rounded-xl border border-neutral-800 shadow-lg w-64 overflow-hidden">
+    <div className="bg-black rounded-xl border-2 border-yellow-400 shadow-lg w-50 overflow-hidden">
       {/* Top Section */}
-      <div className="flex flex-col items-center pt-8 pb-4">
+      <div className="flex flex-col items-center pt-6 pb-4"> {/* Reduced pt-8 to pt-6 */}
         <div className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-yellow-400">
           <Link
             className="w-6 h-6 text-yellow-300"
             style={{
-              filter:
-                'brightness(1.5) drop-shadow(0 0 3px #facc15)',
+              filter: 'brightness(1.5) drop-shadow(0 0 3px #facc15)',
             }}
           />
         </div>
         <h3 className="text-white font-bold text-lg text-center mt-3 leading-tight">
-          Local<br />Knowledge
+          Connected<br />Services
         </h3>
       </div>
 
@@ -124,13 +117,12 @@ const ExpertiseSection = () => {
           and an acute local understanding.
         </p>
       </div>
-    </div>
     </div>
   </div>
 </div>
 
        {/* Tax Guide Resource - Compact Version */}
-<div className="bg-gradient-to-r from-blue-900 via-teal-700 to-teal-600 rounded-3xl p-6 sm:p-8 mt-18 relative overflow-hidden max-w-4xl mx-auto">
+<div className="bg-gradient-to-r from-blue-900 via-teal-700 to-teal-600 rounded-3xl p-6 sm:p-8 mt-18 relative overflow-hidden max-w-5xl mx-auto">
   {/* Navigation Arrows */}
   <div className="absolute right-4 top-4 sm:right-6 sm:top-6 z-10">
     <div className="flex space-x-2">
@@ -170,7 +162,7 @@ const ExpertiseSection = () => {
     </div>
   </div>
 </div>
-      {/* </div> */}
+      </div>
     </section>
   );
 };

@@ -15,11 +15,11 @@ const ServicesSection = () => {
             part of your <span className="text-white">journey</span><span className="text-yellow-400">.</span>
           </h2>
           <p className="text-base md:text-lg text-gray-300 max-w-4xl mx-auto leading-relaxed md:leading-loose">
-            Find intelligent answers to the most complex administrative issues you'll come up against as your business expands 
-            into Vietnam and beyond. From establishing an investment vehicle through providing support for cross-border 
-            transactions to setting up a fully operational local or regional presence, we will help you make the most out of every 
-            incentive and benefit this unique region has to offer. Ask us for solutions, not just advice.
-          </p>
+  Find intelligent answers to the most complex administrative&nbsp;issues you'll come up against as your&nbsp;business 
+  expands into Vietnam and beyond. From&nbsp;establishing an investment vehicle through&nbsp;providing support for cross-border 
+  transactions to&nbsp;setting up a fully operational local or&nbsp;regional presence, we will help you make&nbsp;the most out of every 
+  incentive and benefit this&nbsp;unique region has to offer. Ask us for&nbsp;solutions, not just advice.
+</p>
         </div>
 
         {/* Service Categories */}
